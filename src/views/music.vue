@@ -16,6 +16,8 @@
               </el-submenu>
               <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
                <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">会员中心</a></el-menu-item>
+               <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">登陆</a></el-menu-item>
+               <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">注册</a></el-menu-item>
             </el-menu>
    </el-header>
    <el-main>
@@ -87,6 +89,10 @@
   .el-header{
        margin-top: -59px;height: 79px;
   }
+
+   .right{
+          margin-right: 393px;
+    }
 
   .el-footer .el-menu{
       height:115px;
