@@ -20,9 +20,30 @@
    </el-header>
    <el-main>
       <el-carousel :interval="4000" type="card" height="500px">
-          <el-carousel-item v-for="item in 6" :key="item">
-               <h3><img src="/src/assets/imgs/2.jpg"></h3>
+           <el-carousel-item index="1">
+                         <h3><img src="/src/assets/imgs/2.jpg"></h3>
           </el-carousel-item>
+
+           <el-carousel-item index="2">
+                        <h3><img src="/src/assets/imgs/3.jpg"></h3>
+           </el-carousel-item>
+
+            <el-carousel-item index="2">
+                         <h3><img src="/src/assets/imgs/4.jpg"></h3>
+            </el-carousel-item>
+
+           <el-carousel-item index="2">
+                         <h3><img src="/src/assets/imgs/5.jpg"></h3>
+           </el-carousel-item>
+
+           <el-carousel-item index="2">
+                         <h3><img src="/src/assets/imgs/6.jpg"></h3>
+           </el-carousel-item>
+
+           <el-carousel-item index="2">
+                          <h3><img src="/src/assets/imgs/1.jpg"></h3>
+           </el-carousel-item>
+
         </el-carousel>
    </el-main>
    <el-footer>
