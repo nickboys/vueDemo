@@ -57,7 +57,7 @@ module.exports = {
         historyApiFallback: false,//不跳转
         noInfo: true,
         inline: true,//实时刷新
-        hot:true
+        hot:false
     },
     performance: {
         hints: false
