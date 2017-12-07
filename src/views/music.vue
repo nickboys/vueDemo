@@ -1,9 +1,46 @@
 <template>
-  <el-carousel :interval="4000" type="card" height="500px">
-    <el-carousel-item v-for="item in 6" :key="item">
-         <h3><img src="/src/assets/imgs/2.jpg"></h3>
-    </el-carousel-item>
-  </el-carousel>
+ <div>
+ <el-container>
+   <el-header>
+            <el-menu
+              :default-active="activeIndex2"
+              class="el-menu-demo"
+              mode="horizontal"
+              @select="handleSelect"
+              background-color="#545c64"
+              text-color="#fff"
+              active-text-color="#ffd04b">
+              <el-menu-item index="1">处理中心</el-menu-item>
+              <el-submenu index="2">
+                <template slot="title">我的工作台</template>
+              </el-submenu>
+              <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
+               <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">会员中心</a></el-menu-item>
+            </el-menu>
+   </el-header>
+   <el-main>
+      <el-carousel :interval="4000" type="card" height="500px">
+          <el-carousel-item v-for="item in 6" :key="item">
+               <h3><img src="/src/assets/imgs/2.jpg"></h3>
+          </el-carousel-item>
+        </el-carousel>
+   </el-main>
+   <el-footer>
+           <el-menu
+             :default-active="activeIndex2"
+             class="el-menu-demo"
+             mode="horizontal"
+             @select="handleSelect"
+             background-color="#545c64"
+             text-color="#fff"
+             active-text-color="#ffd04b">
+             <h style="color:yellow">全力做好网上治安秩序打击整治专项行动，打造晴朗网络空间</h>
+           </el-menu>
+
+   </el-footer>
+ </el-container>
+
+  </div>
 </template>
 
 <style>
@@ -21,5 +58,9 @@
 
   .el-carousel__item:nth-child(2n+1) {
     background-color: #d3dce6;
+  }
+
+  .el-header{
+       margin-top: -59px;height: 79px;
   }
 </style>
