@@ -9,6 +9,7 @@ import indexPage from './components/header.vue'
 import homePage from './views/home.vue'
 import aboutPage from './views/about.vue'
 import musicPage from './views/music.vue'
+import loginPage from './views/login.vue'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
         {
             path:'/music',
             component:musicPage
+        },
+        {
+            path:'/login',
+            component:loginPage
         }
     ]
 })

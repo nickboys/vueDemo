@@ -16,7 +16,7 @@
               </el-submenu>
               <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
                <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">会员中心</a></el-menu-item>
-               <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">登陆</a></el-menu-item>
+               <el-menu-item index="3"><a href="#/login" target="_blank">登陆</a></el-menu-item>
                <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">注册</a></el-menu-item>
             </el-menu>
    </el-header>
@@ -49,19 +49,11 @@
         </el-carousel>
    </el-main>
    <el-footer>
-           <el-menu
-             :default-active="activeIndex2"
-             class="el-menu-demo"
-             mode="horizontal"
-             @select="handleSelect"
-             background-color="#545c64"
-             text-color="#fff"
-             active-text-color="#ffd04b">
-             <h style="color:#FFFFFF">全力做好网上治安秩序打击整治专项行动，打造晴朗网络空间
+
+             <h style="color:black">全力做好网上治安秩序打击整治专项行动，打造晴朗网络空间
                                      网站地图 | 联系我们 | 广告服务 | 诚聘英才 | 用户服务协议 | 隐私政策 | 音乐网站免责声明 | 音乐网站著作保护声明 | 未成年人家长监护工程
                                      版权所有 网络文化经营许可证： 京网文[2015]0525-205号 信息网络传播视听节目许可证0109362号 增值电信业务经营许可证B2-20090418 京ICP证060261号
                                      广播电视节目制作经营许可证京字第2037号 营业性演出许可证京市演1574  京公网安备 11010502030216号  京ICP备09014827号</h>
-           </el-menu>
 
    </el-footer>
  </el-container>
@@ -94,7 +86,7 @@
           margin-right: 393px;
     }
 
-  .el-footer .el-menu{
-      height:115px;
+  .el-footer {
+      margin-top: 155px;
   }
 </style>
