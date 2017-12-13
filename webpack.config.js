@@ -35,11 +35,10 @@ module.exports = {
                     name: '[name].[ext]?[hash]'
                 }
             }
-            //自己加的
             ,
             {
                 test: /\.css$/,
-                loader: "style-loader!css-loader"
+                loader: "style-loader!css-loader!file-loader"
             }
             ,
             {

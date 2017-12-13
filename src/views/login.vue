@@ -1,47 +1,64 @@
 <template>
-    <el-container>
-        <el-header height=115px></el-header>
-        <el-container>
-            <el-aside
-                    style="width:1000px;background-image:url(/src/assets/imgs/5.jpg;margin-bottom: -146px;"></el-aside>
-            <el-main>
-                <el-form :label-position="labelPosition" label-width="80px">
-                    <el-form-item label="用户名">
-                        <el-input></el-input>
-                    </el-form-item>
-                    <el-form-item label="密码">
-                        <el-input></el-input>
-                    </el-form-item>
-                    <el-form-item label="验证码">
-                        <el-input></el-input>
-                    </el-form-item>
-                    <el-form-item>
-                        <el-button type="primary"> 登陆</el-button>
-                        <el-button type="primary">忘记密码</el-button>
-                    </el-form-item>
-                </el-form>
-            </el-main>
-        </el-container>
-    </el-container>
+    <body>
+    <div class="header">
+        <div class="am-g">
+            <h1>Web ide</h1>
+            <p>Integrated Development Environment<br>代码编辑，代码生成，界面设计，调试，编译</p>
+        </div>
+        <hr>
+    </div>
+    <div class="am-g">
+        <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+            <h3>登录</h3>
+            <hr>
+            <div class="am-btn-group">
+                <a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-secondary am-btn-sm"><i
+                        class="am-icon-github am-icon-sm"></i> Github</a>
+                <a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-success am-btn-sm"><i
+                        class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>
+                <a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-primary am-btn-sm"><i
+                        class="am-icon-stack-overflow am-icon-sm"></i> stackOverflow</a>
+            </div>
+            <br>
+            <br>
 
+            <form method="post" class="am-form">
+                <label for="email">邮箱:</label>
+                <input type="email" name="" id="email" value="">
+                <br>
+                <label for="password">密码:</label>
+                <input type="password" name="" id="password" value="">
+                <br>
+                <label for="remember-me">
+                    <input id="remember-me" type="checkbox">
+                    记住密码
+                </label>
+                <br>
+                <div class="am-cf">
+                    <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl">
+                    <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
+                </div>
+            </form>
+            <hr>
+            <p>© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+        </div>
+    </div>
 
+    </body>
 </template>
+
 <style>
-    .el-header {
-        background-color: black
+    .header {
+        text-align: center;
     }
 
-    .el-main .el-form {
-        height: 30em;
-        margin-top: 15em;
+    .header h1 {
+        font-size: 200%;
+        color: #333;
+        margin-top: 30px;
     }
 
-    .el-aside {
-        margin-bottom: -146px;
+    .header p {
+        font-size: 14px;
     }
-
-    .el-main {
-        margin-bottom: -146px;
-    }
-
 </style>

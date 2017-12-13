@@ -6,20 +6,29 @@
 import App from './App.vue'
 import router from './routes.js'
 import Element from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+//import 'element-ui/lib/theme-chalk/index.css'
+// import VueAmazeui from 'vue-amazeui'
+// import 'vue-amazeui/dist/static/css/vue-amazeui.css'
+
+
 import Vue from 'vue'
+
+
 
 //import './assets/styles/base.css'
 //import './assets/sass/reset.scss'//报错暂时不用sass
 
+
+
 Vue.config.debug = true;//开启错误提示
-Vue.use(Element)
 
 new Vue({
         router,
         el: '#appIndex',
         render: h => h(App)
 })
+
+
 
 
 

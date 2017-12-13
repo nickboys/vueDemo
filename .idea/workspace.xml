@@ -1,9 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034f7568-8664-4486-b0b6-36d5c9bb977a" name="Default" comment="">
+    <list default="true" id="034f7568-8664-4486-b0b6-36d5c9bb977a" name="Default" comment="format">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/reset.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/sass/reset.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/build.js" afterPath="$PROJECT_DIR$/dist/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/LICENSE" afterPath="$PROJECT_DIR$/node_modules/node-sass/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/README.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/binding.gyp" afterPath="$PROJECT_DIR$/node_modules/node-sass/binding.gyp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/binding.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/binding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/errors.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/extensions.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/render.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/watcher.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/watcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/package.json" afterPath="$PROJECT_DIR$/node_modules/node-sass/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/build.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/build.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/coverage.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/coverage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/install.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/install.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/prepublish.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/prepublish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/downloadoptions.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/downloadoptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/proxy.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/useragent.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/scripts/util/useragent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/binding.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/binding.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/callback_bridge.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/callback_bridge.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/create_string.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/create_string.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/create_string.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/create_string.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/custom_function_bridge.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/custom_function_bridge.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/custom_function_bridge.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/custom_function_bridge.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/custom_importer_bridge.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/custom_importer_bridge.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/custom_importer_bridge.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/custom_importer_bridge.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass.gyp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass.gyp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitattributes" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.npmignore" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/COPYING" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/COPYING" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/GNUmakefile.am" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/GNUmakefile.am" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/INSTALL" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/INSTALL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/LICENSE" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile.conf" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Readme.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/SECURITY.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/SECURITY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/appveyor.yml" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/configure.ac" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/configure.ac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/libsass.spec" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/libsass.spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/plugin.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/plugin.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/README.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-doc.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-doc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-darwin.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-darwin.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-gentoo.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-gentoo.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-windows.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-windows.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-shared-library.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-shared-library.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-autotools.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-autotools.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-makefiles.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-makefiles.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-mingw.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-mingw.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-visual-studio.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-visual-studio.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/compatibility-plan.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/compatibility-plan.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/contributing.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/contributing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/custom-functions-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/custom-functions-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/dev-ast-memory.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/dev-ast-memory.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/implementations.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/implementations.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/plugins.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/plugins.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/setup-environment.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/setup-environment.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/source-map-internals.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/source-map-internals.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/trace.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/trace.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/triage.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/triage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/unicode.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/unicode.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/extconf.rb" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/extconf.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/base.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/base.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/context.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/functions.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/functions.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/values.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/values.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h.in" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass2scss.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass2scss.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/m4-ax_cxx_compile_stdcxx_11.m4" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/m4-ax_cxx_compile_stdcxx_11.m4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/res/resource.rc" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/res/resource.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/bootstrap" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/bootstrap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/branding" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/branding" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-libsass" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-libsass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-plugin" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-plugin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-compiler" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-compiler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-deps" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-deps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-report-coverage" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-report-coverage" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/spec" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-driver" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-driver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/test-leaks.pl" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/test-leaks.pl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/GNUmakefile.am" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/GNUmakefile.am" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_def_macros.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_def_macros.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/cencode.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/cencode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/encode.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/encode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/backtrace.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/backtrace.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/c99func.c" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/c99func.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cencode.c" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cencode.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debug.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debug.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debugger.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debugger.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/kwd_arg_macros.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/kwd_arg_macros.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/mapping.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/mapping.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/operation.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/operation.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/paths.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/paths.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass2scss.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass2scss.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/checked.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/checked.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/core.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/core.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/unchecked.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/unchecked.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_node.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_node.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_paths.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_paths.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_selector_difference.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_selector_difference.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_specificity.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_specificity.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_subset_map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_subset_map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_superselector.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_superselector.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_unification.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_unification.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/version.sh" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/version.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.sln" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.targets" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.targets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj.filters" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj.filters" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_context_wrapper.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_context_wrapper.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_context_wrapper.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_context_wrapper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/boolean.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/boolean.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/boolean.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/boolean.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/color.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/color.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/color.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/color.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/error.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/error.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/error.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/error.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/factory.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/factory.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/factory.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/factory.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/list.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/list.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/list.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/list.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/map.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/map.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/null.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/null.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/null.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/null.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/number.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/number.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/number.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/number.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/sass_value_wrapper.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/sass_value_wrapper.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/string.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/string.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/string.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/string.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/value.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/sass_types/value.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/.eslintrc" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/api.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/binding.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/binding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/cli.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/downloadoptions.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/downloadoptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/errors.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/compressed/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/compressed/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/compressed/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/compressed/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/setter-expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/setter-expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/setter.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/setter.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/string-conversion-expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/string-conversion-expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/string-conversion.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/custom-functions/string-conversion.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/cwd-include-path/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/cwd-include-path/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/cwd-include-path/outside.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/cwd-include-path/outside.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/cwd-include-path/root/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/cwd-include-path/root/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/_common.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/_common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/_struct.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/_struct.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/_vars.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/_vars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/a.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/a.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/a1.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/a1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/b.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/b.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/b1.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/b1.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/depth-first/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_arrays_of_importers.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_arrays_of_importers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_functions_setter.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_functions_setter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_functions_string_conversion.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_functions_string_conversion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_data.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_data_cb.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_data_cb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_error.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file_and_data.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file_and_data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file_and_data_cb.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file_and_data_cb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file_cb.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/extras/my_custom_importer_file_cb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/follow/foo/bar/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/follow/foo/bar/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/bar.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/chained-imports-with-custom-importer.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/chained-imports-with-custom-importer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/expected-importer.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/expected-importer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/file-not-processed-by-loader.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/file-not-processed-by-loader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/file-processed-by-loader.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/file-processed-by-loader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/foo.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/foo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-files/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/functions/colorBlue.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/functions/colorBlue.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/lib/vars.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/include-path/lib/vars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/indent/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/indent/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/indent/index.sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/indent/index.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/_skipped.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/_skipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/nested/three.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/nested/three.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/one.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/one.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/two.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/input-directory/sass/two.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/invalid/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/invalid/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/output-directory/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/output-directory/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/precision/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/precision/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/precision/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/precision/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/expected-orange.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/expected-orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/expected-red.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/expected-red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/orange/colors.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/orange/colors.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/red/colors.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/sass-path/red/colors.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/simple/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/simple/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/simple/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/simple/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-comments/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-comments/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-comments/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-comments/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map-embed/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map-embed/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map-embed/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map-embed/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map/expected.css" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map/expected.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map/expected.map" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map/expected.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/source-map/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/one.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/one.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/partials/_one.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/partials/_one.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/partials/_three.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/partials/_three.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/partials/_two.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/partials/_two.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/three.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/three.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/two.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/two.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/sibling/partials/_three.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/sibling/partials/_three.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/sibling/three.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/sibling/three.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching-dir-01/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching-dir-01/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching-dir-02/foo.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching-dir-02/foo.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching-dir-02/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching-dir-02/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/bar.sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/bar.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/index.sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/index.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/index.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/white.scss" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watching/white.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/lowlevel.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/lowlevel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/runtime.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/scripts/util/proxy.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/scripts/util/proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/spec.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/types.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/useragent.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/useragent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/test/watcher.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/test/watcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/sass-loader/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sass-loader/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/README.md" afterPath="$PROJECT_DIR$/node_modules/sass-loader/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/formatSassError.js" afterPath="$PROJECT_DIR$/node_modules/sass-loader/lib/formatSassError.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/importsToResolve.js" afterPath="$PROJECT_DIR$/node_modules/sass-loader/lib/importsToResolve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/loader.js" afterPath="$PROJECT_DIR$/node_modules/sass-loader/lib/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/normalizeOptions.js" afterPath="$PROJECT_DIR$/node_modules/sass-loader/lib/normalizeOptions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/proxyCustomImporters.js" afterPath="$PROJECT_DIR$/node_modules/sass-loader/lib/proxyCustomImporters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/webpackImporter.js" afterPath="$PROJECT_DIR$/node_modules/sass-loader/lib/webpackImporter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sass-loader/package.json" afterPath="$PROJECT_DIR$/node_modules/sass-loader/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/scss-loader/package.json" afterPath="$PROJECT_DIR$/node_modules/scss-loader/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/login.vue" afterPath="$PROJECT_DIR$/src/views/login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/music.vue" afterPath="$PROJECT_DIR$/src/views/music.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="vuedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +379,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="190">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#85#112#0" expanded="true" />
               </folding>
@@ -35,71 +388,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="newMusic.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="271" column="10" lean-forward="true" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/music.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="118" lean-forward="true" selection-start-line="4" selection-start-column="118" selection-end-line="4" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="-76">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -108,8 +411,18 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="19">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -131,6 +444,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>babelrc</find>
+      <find>png</find>
+      <find>ttf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,14 +466,17 @@
         <option value="$USER_HOME$/Desktop/素材/Mozilla Firefox/管理后台/1.SAYEE管理平台.html" />
         <option value="$PROJECT_DIR$/src/assets/sass/reset.scss" />
         <option value="$PROJECT_DIR$/src/views/home.vue" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/views/vip.vue" />
+        <option value="$PROJECT_DIR$/src/views/music.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/node_modules/vue-amazeui/dist/static/css/vue-amazeui.css" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/views/login.vue" />
-        <option value="$PROJECT_DIR$/src/views/music.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/views/newMusic.vue" />
       </list>
     </option>
   </component>
@@ -216,6 +534,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -228,15 +592,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webTestProject\vueDemo\dist\static\font" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\vueDemo\src\assets\imgs" />
+      <recent name="D:\webTestProject\vueDemo\src\assets" />
+      <recent name="D:\webTestProject\vueDemo\src\assets\js" />
+      <recent name="D:\webTestProject\vueDemo\src\assets\imgs" />
+      <recent name="D:\webTestProject\vueDemo\src\assets\fonts" />
+      <recent name="D:\webTestProject\vueDemo\src\assets\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -313,7 +684,7 @@
       <workItem from="1512616982650" duration="1076000" />
       <workItem from="1512619072264" duration="2100000" />
       <workItem from="1512625083011" duration="8332000" />
-      <workItem from="1512636180629" duration="10498000" />
+      <workItem from="1512636180629" duration="34596000" />
     </task>
     <task id="LOCAL-00001" summary="add  images">
       <created>1512636254296</created>
@@ -427,11 +798,25 @@
       <option name="project" value="LOCAL" />
       <updated>1512704179324</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="login">
+      <created>1512704236217</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512704236217</updated>
+    </task>
+    <task id="LOCAL-00018" summary="format">
+      <created>1512705573993</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1512705573993</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22006000" />
+    <option name="totallyTimeSpent" value="46104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -440,6 +825,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.293125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -452,7 +838,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -468,115 +853,14 @@
     <MESSAGE value="add  images" />
     <MESSAGE value="head main  boot" />
     <MESSAGE value="login" />
-    <option name="LAST_COMMIT_MESSAGE" value="login" />
+    <MESSAGE value="format" />
+    <option name="LAST_COMMIT_MESSAGE" value="format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#85#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#85#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/about.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/styles/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -621,6 +905,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -628,6 +913,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,6 +983,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,6 +991,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,21 +1002,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/素材/Mozilla Firefox/管理后台/1.SAYEE管理平台.html" />
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/imgs/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -738,21 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/about.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -760,6 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -767,6 +1028,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-912">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#158115#158254#2" expanded="false" />
+            <element signature="e#161643#161782#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/imgs/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/music.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="82" column="23" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,81 +1072,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/imgs/1.jpg">
+    <entry file="file://$PROJECT_DIR$/dist/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-amazeui/dist/static/scss/_user.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-amazeui/dist/static/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/sass/reset.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="76">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/home.vue">
+    <entry file="file://$PROJECT_DIR$/dist/5087f856b4fc64f5ed596159561439b3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="-1900">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-amazeui/dist/static/css/vue-amazeui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="228">
+          <caret line="4" column="40579" lean-forward="true" selection-start-line="4" selection-start-column="40579" selection-end-line="4" selection-end-column="40579" />
           <folding>
-            <element signature="e#85#112#0" expanded="true" />
+            <element signature="e#23756#31350#1" expanded="true" />
+            <element signature="e#31367#40446#1" expanded="true" />
+            <element signature="e#45115#45401#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/dist/build.js.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="-627">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/login.vue">
+    <entry file="file://$PROJECT_DIR$/src/assets/js/amazeui.ie8polyfill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="118" lean-forward="true" selection-start-line="4" selection-start-column="118" selection-end-line="4" selection-end-column="118" />
+        <state relative-caret-position="266">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <marker date="1471421854000" expanded="true" signature="109115:109120" ph="­" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/music.vue">
+    <entry file="file://$PROJECT_DIR$/src/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/vip.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#85#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vuex/dist/vuex.esm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="287" column="27" lean-forward="true" selection-start-line="287" selection-start-column="27" selection-end-line="287" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/about.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="271" column="10" lean-forward="true" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
           <folding />
         </state>
       </provider>
