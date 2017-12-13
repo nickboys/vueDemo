@@ -32,7 +32,7 @@
 
                 <div class="am-topbar-right">
                     <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" @click="register"><span
-                            class="am-icon-pencil" onclick="login()"></span>
+                            class="am-icon-pencil"></span>
                         注册
                     </button>
                 </div>

@@ -14,7 +14,7 @@ import aboutPage from './views/about.vue'
 import musicPage from './views/newMusic.vue'
 import loginPage from './views/login.vue'
 import registerPage from './views/register.vue'
-
+import musicplayer from './views/musicPlayer.vue'
 // Vue.use(Validator)
 Vue.use(Router)
 Vue.use(VueResource)
@@ -41,6 +41,10 @@ export default new Router({
         {
             path: '/register',
             component: registerPage
+        },
+        {
+            path: '/player',
+            component: musicplayer
         }
     ]
 })
