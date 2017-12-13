@@ -11,10 +11,10 @@ import homePage from './views/home.vue'
 import aboutPage from './views/about.vue'
 import musicPage from './views/newMusic.vue'
 import loginPage from './views/login.vue'
+import registerPage from './views/register.vue'
 
 // Vue.use(Validator)
 Vue.use(Router)
-
 
 
 export default new Router({
@@ -34,6 +34,10 @@ export default new Router({
         {
             path: '/login',
             component: loginPage
+        },
+        {
+            path: '/register',
+            component: registerPage
         }
     ]
 })

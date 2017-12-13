@@ -29,7 +29,7 @@
                 </ul>
 
                 <div class="am-topbar-right">
-                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil" onclick="login()"></span>
+                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" @click="register"><span class="am-icon-pencil" onclick="login()"></span>
                         注册
                     </button>
                 </div>
@@ -273,6 +273,9 @@
         methods:{
             login(){
                 this.$router.push({ path: 'login' })
+            },
+            register(){
+                this.$router.push({ path: 'register' })
             }
         },}
 </script>
