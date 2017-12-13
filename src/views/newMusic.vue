@@ -29,13 +29,15 @@
                 </ul>
 
                 <div class="am-topbar-right">
-                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" @click="register"><span class="am-icon-pencil" onclick="login()"></span>
+                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" @click="register"><span
+                            class="am-icon-pencil" onclick="login()"></span>
                         注册
                     </button>
                 </div>
 
                 <div class="am-topbar-right">
-                    <button id="login" class="am-btn am-btn-primary am-topbar-btn am-btn-sm"  @click="login"><span class="am-icon-user"></span> 登录
+                    <button id="login" class="am-btn am-btn-primary am-topbar-btn am-btn-sm" @click="login"><span
+                            class="am-icon-user"></span> 登录
                     </button>
                 </div>
             </div>
@@ -264,18 +266,29 @@
         data () {
             return {
                 todos: [
-                    { text: 'Learn JavaScript' },
-                    { text: 'Learn Vue' },
-                    { text: 'Build something awesome' }
+                    {text: 'Learn JavaScript'},
+                    {text: 'Learn Vue'},
+                    {text: 'Build something awesome'}
                 ]
             }
         },
-        methods:{
+        methods: {
             login(){
-                this.$router.push({ path: 'login' })
+                this.$router.push({path: 'login'})
             },
             register(){
-                this.$router.push({ path: 'register' })
+                this.$router.push({path: 'register'})
+            },
+            doLogin(){
+                this.$http.post("http://127.0.0.1:8080/app/user/login", {
+                    username: 0,
+                    password: 15
+                }).then((response) => {
+                    response = response.body;
+                    console.log(response.data);//需要这样获取到数组
+                })
             }
-        },}
+
+        },
+    }
 </script>

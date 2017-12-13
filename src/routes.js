@@ -4,6 +4,8 @@
 
 // 引用模板
 import Vue from 'vue';
+//引入http请求
+import VueResource from 'vue-resource'
 // import Validator from 'vue-validator'
 import Router from 'vue-router';
 import indexPage from './components/header.vue'
@@ -15,6 +17,7 @@ import registerPage from './views/register.vue'
 
 // Vue.use(Validator)
 Vue.use(Router)
+Vue.use(VueResource)
 
 
 export default new Router({

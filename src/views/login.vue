@@ -35,7 +35,8 @@
                 </label>
                 <br>
                 <div class="am-cf">
-                    <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl">
+                    <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl"
+                           @click="doLogin">
                     <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
                 </div>
             </form>
@@ -46,6 +47,40 @@
 
     </body>
 </template>
+
+<script>
+    export default {
+        name: 'doLogin',
+        data () {
+            return {
+                names: [
+                    {text: 'Learn JavaScript'},
+                    {text: 'Learn Vue'},
+                    {text: 'Build something awesome'}
+                ]
+            }
+        },
+        methods: {
+            login(){
+                this.$router.push({path: 'login'})
+            },
+            register(){
+                this.$router.push({path: 'register'})
+            },
+            doLogin(){
+                alert("doLogin");
+                this.$http.post("http://127.0.0.1:8080/app/user/login", {
+                    username: 0,
+                    password: 15
+                }).then((response) => {
+                    response = response.body;
+                    console.log(response.data);
+                })
+            }
+
+        },
+    }
+</script>
 
 <style>
     .header {

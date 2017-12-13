@@ -5,8 +5,6 @@
 
 import App from './App.vue'
 import router from './routes.js'
-import Element from 'element-ui'
-//import 'element-ui/lib/theme-chalk/index.css'
 // import VueAmazeui from 'vue-amazeui'
 // import 'vue-amazeui/dist/static/css/vue-amazeui.css'
 
