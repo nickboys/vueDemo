@@ -1,66 +1,52 @@
-<template>
-    <div class="container">
-        <div class="music-list">
-            <div class="title">默认歌单</div>
-            <div class="list">
-                <ul>
-                    <li>你在终点等我</li>
-                    <li>白昼之夜（纯音乐）</li>
-                    <li>告白气球</li>
-                    <li>那就这样吧</li>
-                    <li>骄傲的少年</li>
-                    <li>岁月神偷</li>
-                </ul>
-            </div>
-        </div>
-        <audio id="audio">
-            <source title="你在终点等我" data-img="http://p1.music.126.net/ddhcDeGSl9VhXJLfOsNDEA==/3433774824740403.jpg"
-                    src="http://link.hhtjim.com/163/431357712.mp3">
-            <source title="白昼之夜（纯音乐）" data-img="http://p1.music.126.net/he7P6CYpQmz8KqYSdULuOQ==/94557999994394.jpg"
-                    src="http://oc1475jft.bkt.clouddn.com/baizhouzhiye.mp3">
-            <source title="告白气球" data-img="http://p1.music.126.net/tlp3VWVQVe0Je1r-oHn91g==/17666952835430891.jpg"
-                    src="http://oc1475jft.bkt.clouddn.com/gaobaiqiqiu.mp3">
-            <source title="那就这样吧" data-img="http://p1.music.126.net/fYNa5MMN0KTIYP2KMpYObQ==/17923139044585525.jpg"
-                    src="http://link.hhtjim.com/163/28949843.mp3">
-            <source title="骄傲的少年" data-img="http://p1.music.126.net/Brn39jwEDNPVV6pNWcv_rA==/1391981724588577.jpg"
-                    src="http://link.hhtjim.com/163/408332757.mp3">
-            <source title="岁月神偷" data-img="http://p1.music.126.net/54wdQi_3rpjreY2oo2jb7w==/5998935441219557.jpg"
-                    src="http://link.hhtjim.com/163/28285910.mp3">
-        </audio>
-        <div class="music">
-            <div class="header">
-                <h1>hey-Audio
-                    <small>音乐播放器</small>
-                </h1>
-            </div>
-            <div class="fengmian">
-                <img src="/src/assets/imgs/music.png" id="music-img" alt="">
-            </div>
-            <div id="title">
-                hey!
-            </div>
-            <div class="jindu">
-				<span id="music-bar">
-					<span id="load-bar"></span>
-					<span id="played-bar"></span>
-				</span>
-                <span id="voice-bar">
-					<span id="voiced-bar"></span>
-				</span>
-                <div id="time">
-                    <span id="current-time">0:00</span>
-                    <span id="total-time"></span>
+<template lang="html">
+    <div id="background">
+        <div id="player">
+            <div class="cover"></div>
+            <div class="ctrl">
+                <div class="tag">
+                    <strong>Title</strong>
+                    <span class="artist">Artist</span>
+                    <span class="album">Album</span>
+                </div>
+                <div class="control">
+                    <div class="left">
+                        <div class="rewind icon"></div>
+                        <div class="playback icon"></div>
+                        <div class="fastforward icon"></div>
+                    </div>
+                    <div class="volume right">
+                        <div class="mute icon left"></div>
+                        <div class="slider left">
+                            <div class="pace"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="slider">
+                        <div class="loaded"></div>
+                        <div class="pace"></div>
+                    </div>
+                    <div class="timer left">0:00</div>
+                    <div class="right">
+                        <div class="repeat icon"></div>
+                        <div class="shuffle icon"></div>
+                    </div>
                 </div>
             </div>
-            <div class="controls">
-                <a id="xunhuan" href="javascript:;">循环</a>
-                <a id="prev" href="javascript:;"><</a>
-                <a id="play" href="javascript:;">Play</a>
-                <a id="next" href="javascript:;">></a>
-                <a id="jingyin" href="javascript:;">静音</a>
-            </div>
         </div>
+        <ul id="playlist"></ul>
     </div>
 </template>
+<script>
+    export default {
+    }
+</script>
+<style scoped>
+    @import "/src/assets/css/music.css";
+</style>
+
+
+
+
 
 
