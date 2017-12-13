@@ -37,8 +37,8 @@
       <file leaf-file-name="newMusic.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="274" column="28" lean-forward="false" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="28" />
+            <state relative-caret-position="157">
+              <caret line="268" column="55" lean-forward="true" selection-start-line="268" selection-start-column="55" selection-end-line="268" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -337,7 +337,7 @@
       <workItem from="1512616982650" duration="1076000" />
       <workItem from="1512619072264" duration="2100000" />
       <workItem from="1512625083011" duration="8332000" />
-      <workItem from="1512636180629" duration="36025000" />
+      <workItem from="1512636180629" duration="36204000" />
     </task>
     <task id="LOCAL-00001" summary="add  images">
       <created>1512636254296</created>
@@ -500,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513150714873</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="register">
+      <created>1513150779924</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1513150779924</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47533000" />
+    <option name="totallyTimeSpent" value="47712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -946,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="274" column="28" lean-forward="false" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="28" />
+        <state relative-caret-position="157">
+          <caret line="268" column="55" lean-forward="true" selection-start-line="268" selection-start-column="55" selection-end-line="268" selection-end-column="55" />
           <folding />
         </state>
       </provider>
