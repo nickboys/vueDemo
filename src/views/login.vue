@@ -11,7 +11,7 @@
         <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
             <h3>登录</h3>
             <hr>
-            <div class="am-btn-group">
+            <div class="am-btn-group" style="display: none">
                 <a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-secondary am-btn-sm"><i
                         class="am-icon-github am-icon-sm"></i> Github</a>
                 <a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-success am-btn-sm"><i
