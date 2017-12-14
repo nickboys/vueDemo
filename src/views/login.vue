@@ -24,10 +24,10 @@
 
             <form method="post" class="am-form">
                 <label for="email">邮箱:</label>
-                <input type="email" name="" id="email" value="">
+                <input type="email" name="" id="email" value="" placeholder="请输入邮箱">
                 <br>
                 <label for="password">密码:</label>
-                <input type="password" name="" id="password" value="">
+                <input type="password" name="" id="password" value="" placeholder="请输入密码">
                 <br>
                 <label for="remember-me">
                     <input id="remember-me" type="checkbox">

@@ -12,22 +12,22 @@
             <h3>注册</h3>
             <hr>
             <!--<div class="am-btn-group">-->
-                <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-secondary am-btn-sm"><i-->
-                        <!--class="am-icon-github am-icon-sm"></i> Github</a>-->
-                <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-success am-btn-sm"><i-->
-                        <!--class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>-->
-                <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-primary am-btn-sm"><i-->
-                        <!--class="am-icon-stack-overflow am-icon-sm"></i> stackOverflow</a>-->
+            <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-secondary am-btn-sm"><i-->
+            <!--class="am-icon-github am-icon-sm"></i> Github</a>-->
+            <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-success am-btn-sm"><i-->
+            <!--class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>-->
+            <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-primary am-btn-sm"><i-->
+            <!--class="am-icon-stack-overflow am-icon-sm"></i> stackOverflow</a>-->
             <!--</div>-->
             <br>
             <br>
 
             <form method="post" class="am-form">
                 <label for="email">邮箱:</label>
-                <input type="email" name="" id="email" value="" v-model="username">
+                <input type="email" name="" id="email" value="" v-model="username" placeholder="请输入邮箱">
                 <br>
                 <label for="password">密码:</label>
-                <input type="password" name="" id="password" value="" v-model="password">
+                <input type="password" name="" id="password" value="" v-model="password" placeholder="请输入密码">
                 <br>
                 <label for="remember-me">
                     <input id="remember-me" type="checkbox">
@@ -35,7 +35,8 @@
                 </label>
                 <br>
                 <div class="am-cf">
-                    <input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl" @click="doRegister">
+                    <input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl"
+                           @click="doRegister">
                     <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
                 </div>
             </form>
@@ -52,8 +53,7 @@
         name: 'doRegister',
         data () {
             return {
-                names: [
-                ]
+                names: []
             }
         },
         methods: {
@@ -65,7 +65,7 @@
                 }, {emulateJSON: true}).then((response) => {
                     console.log(response)
                     let body = response.body;
-                    if (body.code ==200) {
+                    if (body.code == 200) {
                         this.$router.push({path: 'login'})
                     }
                 })
