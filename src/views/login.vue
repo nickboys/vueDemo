@@ -36,8 +36,9 @@
                 <br>
                 <div class="am-cf">
                     <input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm am-fl"
-                           @click="doLogin">
-                    <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
+                           @click="doLogin" v-model="username">
+                    <input type="submit" name="" v-model="password" value="忘记密码 ^_^? "
+                           class="am-btn am-btn-default am-btn-sm am-fr">
                 </div>
             </form>
             <hr>
@@ -70,12 +71,12 @@
             //跨域请求
             doLogin(){
                 this.$http.post("http://localhost:8088/user/login", {
-                    "username": "nk",
-                    "password": "nk"
+                    "username": this.username,
+                    "password": this.password
                 }, {emulateJSON: true}).then((response) => {
                     console.log(response)
                     let body = response.body;
-                    if (body.code ==200) {
+                    if (body.code == 200) {
                         this.$router.push({path: 'music'})
                     }
                 })
