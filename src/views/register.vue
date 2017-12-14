@@ -24,10 +24,10 @@
 
             <form method="post" class="am-form">
                 <label for="email">邮箱:</label>
-                <input type="email" name="" id="email" value="">
+                <input type="email" name="" id="email" value="" v-model="username">
                 <br>
                 <label for="password">密码:</label>
-                <input type="password" name="" id="password" value="">
+                <input type="password" name="" id="password" value="" v-model="password">
                 <br>
                 <label for="remember-me">
                     <input id="remember-me" type="checkbox">
@@ -35,7 +35,7 @@
                 </label>
                 <br>
                 <div class="am-cf">
-                    <input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl">
+                    <input type="submit" name="" value="注册" class="am-btn am-btn-primary am-btn-sm am-fl" @click="doRegister">
                     <input type="submit" name="" value="忘记密码 ^_^? " class="am-btn am-btn-default am-btn-sm am-fr">
                 </div>
             </form>
@@ -46,6 +46,34 @@
 
     </body>
 </template>
+
+<script>
+    export default {
+        name: 'doRegister',
+        data () {
+            return {
+                names: [
+                ]
+            }
+        },
+        methods: {
+            //跨域请求
+            doRegister(){
+                this.$http.post("http://localhost:8088/user/register", {
+                    "username": this.username,
+                    "password": this.password
+                }, {emulateJSON: true}).then((response) => {
+                    console.log(response)
+                    let body = response.body;
+                    if (body.code ==200) {
+                        this.$router.push({path: 'login'})
+                    }
+                })
+            }
+
+        },
+    }
+</script>
 
 <style>
     .header {

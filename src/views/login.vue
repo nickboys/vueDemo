@@ -67,14 +67,17 @@
             register(){
                 this.$router.push({path: 'register'})
             },
+            //跨域请求
             doLogin(){
-                alert("doLogin");
-                this.$http.post("http://127.0.0.1:8080/app/user/login", {
-                    username: 0,
-                    password: 15
-                }).then((response) => {
-                    response = response.body;
-                    console.log(response.data);
+                this.$http.post("http://localhost:8088/user/login", {
+                    "username": "nk",
+                    "password": "nk"
+                }, {emulateJSON: true}).then((response) => {
+                    console.log(response)
+                    let body = response.body;
+                    if (body.code ==200) {
+                        this.$router.push({path: 'music'})
+                    }
                 })
             }
 
