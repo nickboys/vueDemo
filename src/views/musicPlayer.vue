@@ -1,5 +1,5 @@
 <template lang="html">
-    <div id="background">
+    <div id="background" style="background: #333">
         <div id="player">
             <div class="cover"></div>
             <div class="ctrl">
@@ -42,7 +42,8 @@
     }
 </script>
 <style scoped>
-    @import "/src/assets/css/music.css";
+
+
 </style>
 
 

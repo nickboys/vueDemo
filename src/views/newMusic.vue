@@ -219,17 +219,6 @@
         margin-top: -108px;
     }
 
-    .get-title {
-        font-size: 200%;
-        border: 2px solid #fff;
-        padding: 20px;
-        display: inline-block;
-    }
-
-    .get-btn {
-        background: #fff;
-    }
-
     .detail {
         background: #fff;
     }
