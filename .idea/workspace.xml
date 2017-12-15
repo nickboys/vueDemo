@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="034f7568-8664-4486-b0b6-36d5c9bb977a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
     </list>
     <ignored path="vuedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singer.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="singer.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/singer.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="16" column="75" lean-forward="true" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+              <caret line="21" column="111" lean-forward="true" selection-start-line="21" selection-start-column="111" selection-end-line="21" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -61,21 +60,11 @@
       <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="380">
+              <caret line="86" column="9" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="86" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#template#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newMusic.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -205,6 +194,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -309,7 +316,7 @@
       <workItem from="1512616982650" duration="1076000" />
       <workItem from="1512619072264" duration="2100000" />
       <workItem from="1512625083011" duration="8332000" />
-      <workItem from="1512636180629" duration="73528000" />
+      <workItem from="1512636180629" duration="73626000" />
     </task>
     <task id="LOCAL-00001" summary="add  images">
       <created>1512636254296</created>
@@ -612,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513327212099</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="singer">
+      <created>1513327909091</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1513327909091</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85036000" />
+    <option name="totallyTimeSpent" value="85134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -661,7 +675,8 @@
     <MESSAGE value="login" />
     <MESSAGE value="improve" />
     <MESSAGE value="billboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="billboard" />
+    <MESSAGE value="singer" />
+    <option name="LAST_COMMIT_MESSAGE" value="singer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1010,16 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1040,18 +1045,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/singer.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="75" lean-forward="true" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+        <state relative-caret-position="152">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/newMusic.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="380">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="86" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/singer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="111" lean-forward="true" selection-start-line="21" selection-start-column="111" selection-end-line="21" selection-end-column="111" />
           <folding />
         </state>
       </provider>
