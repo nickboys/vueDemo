@@ -19,13 +19,15 @@
                 </ul>
 
                 <div class="am-topbar-right">
-                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span>
+                    <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm" @click="register"><span
+                            class="am-icon-pencil"></span>
                         注册
                     </button>
                 </div>
 
                 <div class="am-topbar-right">
-                    <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录
+                    <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm" @click="login"><span
+                            class="am-icon-user"></span> 登录
                     </button>
                 </div>
             </div>
@@ -84,7 +86,8 @@
                 <label><img src="/src/assets/imgs/bang_billboard.png"></label>
             </div>
             <div class="musicList">
-                <table class="am-table am-table-bordered am-table-striped am-table-hover .am-table-compact" style="width: 60em">
+                <table class="am-table am-table-bordered am-table-striped am-table-hover .am-table-compact"
+                       style="width: 60em">
                     <thead style="background: cornflowerblue">
                     <tr>
                         <th></th>
@@ -95,82 +98,91 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr >
+                    <tr>
                         <td>1</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>2</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>3</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>4</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>5</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>6</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>7</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>8</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
                         </td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>9</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
-                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
+                        <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a>
+                        </td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
@@ -227,3 +239,40 @@
     }
 
 </style>
+<script>
+    export default {
+        name: 'billboard',
+        data () {
+            return {
+                names: [
+                    {text: 'Learn JavaScript'},
+                    {text: 'Learn Vue'},
+                    {text: 'Build something awesome'}
+                ]
+            }
+        },
+        methods: {
+            login(){
+                this.$router.push({path: 'login'})
+            },
+            register(){
+                this.$router.push({path: 'register'})
+            },
+            //跨域请求
+            doLogin(){
+                this.$http.post("http://localhost:8088/user/login", {
+                    "username": this.username,
+                    "password": this.password
+                }, {emulateJSON: true}).then((response) => {
+                    console.log(response)
+                    let body = response.body;
+                    if (body.code == 200) {
+                        this.$router.push({path: 'music'})
+                    }
+                })
+            }
+
+        },
+    }
+
+</script>
