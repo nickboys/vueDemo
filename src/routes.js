@@ -15,6 +15,7 @@ import musicPage from './views/newMusic.vue'
 import loginPage from './views/login.vue'
 import registerPage from './views/register.vue'
 import musicplayer from './views/musicPlayer.vue'
+import billboardPage from './views/billboard.vue'
 // Vue.use(Validator)
 Vue.use(Router)
 Vue.use(VueResource)
@@ -45,6 +46,10 @@ export default new Router({
         {
             path: '/player',
             component: musicplayer
+        },
+        {
+            path: '/billboard',
+            component:billboardPage
         }
     ]
 })
