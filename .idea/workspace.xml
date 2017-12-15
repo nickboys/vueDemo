@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034f7568-8664-4486-b0b6-36d5c9bb977a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/fastforward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/mute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/playing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/repeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/rewind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/shuffle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/images/volume.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/newMusic.vue" afterPath="$PROJECT_DIR$/src/views/newMusic.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/billboard.vue" afterPath="$PROJECT_DIR$/src/views/billboard.vue" />
     </list>
     <ignored path="vuedemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +22,21 @@
     <favorites_list name="vuedemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="billboard.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/billboard.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,6 +146,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vueDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -247,7 +282,7 @@
       <workItem from="1512616982650" duration="1076000" />
       <workItem from="1512619072264" duration="2100000" />
       <workItem from="1512625083011" duration="8332000" />
-      <workItem from="1512636180629" duration="72220000" />
+      <workItem from="1512636180629" duration="72601000" />
     </task>
     <task id="LOCAL-00001" summary="add  images">
       <created>1512636254296</created>
@@ -529,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513243406065</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="billboard">
+      <created>1513326610998</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1513326610998</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83728000" />
+    <option name="totallyTimeSpent" value="84109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -577,7 +619,8 @@
     <MESSAGE value="register" />
     <MESSAGE value="login" />
     <MESSAGE value="improve" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve" />
+    <MESSAGE value="billboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="billboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -926,17 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/billboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="86" column="128" lean-forward="true" selection-start-line="86" selection-start-column="128" selection-end-line="86" selection-end-column="128" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/imgs/icon/fastforward.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -970,6 +1002,17 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/mute.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/billboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

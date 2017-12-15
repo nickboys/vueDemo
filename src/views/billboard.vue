@@ -12,7 +12,7 @@
 
             <div class="am-collapse am-topbar-collapse" id="collapse-head">
                 <ul class="am-nav am-nav-pills am-topbar-nav">
-                    <li><a href="#">首页</a></li>
+                    <li><a href="#/music">首页</a></li>
                     <li class="am-active"><a href="#">榜单</a></li>
                     <li><a href="#">歌手</a></li>
                     <li><a href="#">会员</a></li>
@@ -105,7 +105,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>2</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -114,7 +114,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>3</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -123,7 +123,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>4</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -132,7 +132,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>5</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -141,7 +141,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>6</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -150,7 +150,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>7</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -159,7 +159,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>8</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -168,7 +168,7 @@
                         </td>
                     </tr>
                     <tr >
-                        <td>1</td>
+                        <td>9</td>
                         <td><a href="http://www.kuwo.cn/yinyue/28661685?catalog=yueku2016">Rockstar</a></td>
                         <td><a href="http://www.kuwo.cn/artist/content?name=21%20Savage&Post%20Malone">21 Savage</a></td>
                         <td>★</td>
@@ -177,9 +177,9 @@
                         </td>
                     </tr>
                     <tr class="">
-                        <td>1</td>
-                        <td>100degrees</td>
-                        <td>THE RAMPAGE from EXILE TRIBE</td>
+                        <td>10</td>
+                        <td><a href="">100degrees</a></td>
+                        <td><a href="">THE RAMPAGE from EXILE TRIBE </a></td>
                         <td>★</td>
                         <td>
                             <button class="am-btn-primary ">播放</button>
