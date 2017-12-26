@@ -17,6 +17,7 @@ import registerPage from './views/register.vue'
 import musicplayer from './views/musicPlayer.vue'
 import billboardPage from './views/billboard.vue'
 import singerPage from './views/singer.vue'
+import vipPage from './views/vip.vue'
 // Vue.use(Validator)
 Vue.use(Router)
 Vue.use(VueResource)
@@ -50,11 +51,15 @@ export default new Router({
         },
         {
             path: '/billboard',
-            component:billboardPage
+            component: billboardPage
         },
         {
             path: '/singer',
-            component:singerPage
+            component: singerPage
+        },
+        {
+            path: '/vip',
+            component: vipPage
         }
     ]
 })

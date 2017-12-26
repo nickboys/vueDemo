@@ -2,8 +2,9 @@
     <body>
     <div class="header">
         <div class="am-g">
-            <h1>Web ide</h1>
-            <p>Integrated Development Environment<br>代码编辑，代码生成，界面设计，调试，编译</p>
+            <div class="am-g">
+                <img src="../assets/imgs/banner04.jpg">
+            </div>
         </div>
         <hr>
     </div>
@@ -11,14 +12,6 @@
         <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
             <h3>注册</h3>
             <hr>
-            <!--<div class="am-btn-group">-->
-            <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-secondary am-btn-sm"><i-->
-            <!--class="am-icon-github am-icon-sm"></i> Github</a>-->
-            <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-success am-btn-sm"><i-->
-            <!--class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>-->
-            <!--<a href="http://amazeui.org/examples/login.html#" class="am-btn am-btn-primary am-btn-sm"><i-->
-            <!--class="am-icon-stack-overflow am-icon-sm"></i> stackOverflow</a>-->
-            <!--</div>-->
             <br>
             <br>
 
