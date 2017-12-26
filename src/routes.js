@@ -26,7 +26,7 @@ export default new Router({
     routes: [
         {
             path: '/',
-            component: homePage
+            component: musicPage
         },
         {
             path: '/about',

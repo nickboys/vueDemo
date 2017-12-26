@@ -14,8 +14,7 @@ module.exports = {
                 test: /\.vue$/,
                 loader: 'vue-loader',
                 options: {
-                    loaders: {
-                    }
+                    loaders: {}
                     // other vue-loader options go here
                 }
             },
@@ -56,7 +55,7 @@ module.exports = {
         historyApiFallback: false,//不跳转
         noInfo: true,
         inline: true,//实时刷新
-        hot:false
+        hot: false
     },
     performance: {
         hints: false
